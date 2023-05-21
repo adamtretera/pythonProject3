@@ -22,12 +22,6 @@ class Calculator:
         return a + b
 
     def subtract(self, a, b):
-        """
-        Returns subtracts of two numbers
-        :param a: first number
-        :param b: second number
-        :return: subtract of a and b
-        """
         return a - b
 
     def multiply(self, a, b):
