@@ -24,10 +24,10 @@ class Calculator:
     def subtract(self, a, b):
         return a - b
 
-    def multiply(self, a, b):
-        return a * b
+
 
     def divide(self, a, b):
+        """ Test for divide by zero"""
         if b != 0:
             return a / b
         else:
